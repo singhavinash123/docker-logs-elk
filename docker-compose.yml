@@ -15,7 +15,7 @@ services:
     links:
        - logstash
   kibana:
-    image: kibana:6.5.2
+    image: kibana:7.8.0
     environment:
       - "LOGGING_QUIET=true"
     links:
